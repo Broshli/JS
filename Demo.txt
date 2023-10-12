@@ -3,3 +3,16 @@
 3. If you use console.log() and console.table() in same line then it will be printing both in same line.
 4. "use Strict" is used when we treat All JS code as a new version.
 5. When we convert 1 to boolean then it will be printing true and 0 to boolean then it will be printing false also if we convert Empty string to boolean then it will be printing false also if we convert null to boolean then it will be printing false.
+6. In javascript we have toFixed() method to convert number to fixed point. (console.log(balance.toFixed(2)) & if balance has any dacemal value on it then it will be printing 1234.56).
+7. In javascript we have toExponential() method to convert number to exponential. (console.log(balance.toExponential(2)) & if balance has any dacemal value on it then it will be printing 1.23456e+3).
+8. In javascript we have toPrecision() method to convert number to precision. (console.log(balance.toPrecision(2)) & if balance has any dacemal value on it then it will be printing 1.2e+3).
+9. In javascript we have toLocaleString() method to convert number to locale string. (console.log(balance.toLocaleString()) & if balance has any dacemal value on it then it will be printing 1,23,456.78) and if we want to convert number to locale string in specific language then we have to use toLocaleString() method with language code. (console.log(balance.toLocaleString('en-IN')) & if balance has any dacemal value on it then it will be printing 1,23,456.78).
+10. In javascript we have toString() method to convert number to string. (console.log(balance.toString()) & if balance has any dacemal value on it then it will be printing 123456.78).
+11. In javascript we have toTimeString() method to convert number to time string. (console.log(balance.toTimeString()) & if balance has any dacemal value on it then it will be printing 12:34:56.78). 
+12. In javascript we have Math.abs() method to convert number to absolute value. (console.log(Math.abs(-10)))
+13. In javascript we have Math.ceil() method to convert number to ceil value. (console.log(Math.ceil(1.2)))
+14. In javascript we have Math.floor() method to convert number to floor value. (console.log(Math.floor(1.2)))
+15. In javascript we have Math.round() method to convert number to round value. (console.log(Math.round(1.2)))
+16. In javascript we have Math.max() method to find max value. (console.log(Math.max(1,2,3)))
+17. In javascript we have Math.min() method to find min value. (console.log(Math.min(1,2,3)))
+18. In javascript we have Math.pow() method to find power value. (console.log(Math.pow(2,3)))
