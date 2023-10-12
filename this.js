@@ -22,18 +22,22 @@
 
 // console.log(null == 0);
 // console.log(null >= 0);
-console.log(undefined == null);
-const gameName = new String('The Legend of Zelda');
-console.log(gameName);
+// console.log(undefined == null);
+// const gameName = new String('The Legend of Zelda');
+// console.log(gameName);
 // {
 //     a= 1;
 //     console.log(a);
 // }
-gameName;
-let rahul;
-let rahuls= null;
-console.log(rahul);
-console.log(rahuls);
-console.log(rahul === rahuls);
+// gameName;
+// let rahul;
+// let rahuls= null;
+// console.log(rahul);
+// console.log(rahuls);
+// console.log(rahul === rahuls);
 
-a=10;
+// a=10;
+
+const min = 1
+const max = 7
+console.log(Math.floor(Math.random() * (max - min)) + min);
