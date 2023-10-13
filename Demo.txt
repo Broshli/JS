@@ -16,3 +16,14 @@
 16. In javascript we have Math.max() method to find max value. (console.log(Math.max(1,2,3)))
 17. In javascript we have Math.min() method to find min value. (console.log(Math.min(1,2,3)))
 18. In javascript we have Math.pow() method to find power value. (console.log(Math.pow(2,3)))
+19. In javascript we have toLocaleString() method and in this method we can change the timezone. (console.log(new Date().toLocaleString('en-IN', {timeZone: 'Asia/Kolkata'}))).
+20. In javascript we have unshift() method to add element in start of array. (console.log(arr.unshift(1,2,3))).
+21. In javascript we have push() method to add element in end of array. (console.log(arr.push(1,2,3))).
+22. In javascript we have shift() method to remove element from start of array. (console.log(arr.shift())).
+23. In javascript we have pop() method to remove element from end of array. (console.log(arr.pop())).
+24. In javascript we have concat() method to add element in end of array. (console.log(arr.concat(1,2,3))).
+25. In javascript we hava includes() method to check element is present in array or not. (console.log(arr.includes(1))).
+26. In javascript we have indexOf() method to find index of element in array. (console.log(arr.indexOf(1))).
+27. In javascript we have lastIndexOf() method to find last index of element in array. (console.log(arr.lastIndexOf(1))).
+28. In javascript we have array and init array we have join() method which is use for joining array. (const newArr = arr.join();) and also this method will change the array value to string.
+29. In javascript we have array and init array we have reverse() method which is use for reversing array. (const newArr = arr.reverse();).
