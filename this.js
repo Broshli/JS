@@ -71,12 +71,50 @@ const newArr = arr.map(function (x) {
     return x * 2;
 })
 for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+    // console.log(arr[i]);
 }
 
-console.log(arr.reverse());
-console.log(typeof arr);
+// console.log(arr.reverse());
+// console.log(typeof arr);
 
 const newArrm = arr.join();
-console.log(newArrm);
-console.log(typeof newArrm);
+// console.log(newArrm);
+// console.log(typeof newArrm);
+
+// console.log(Array.isArray("Ankit"));
+// console.log(Array.from("Ankit Saklani "));
+
+// console.log(Array.from({name:"Ankit",age:30}));
+
+
+let score1 = 100
+let score2 = 80
+let score3 = 90
+
+// console.log(Array.of(score1, score2, score3));
+
+const maps = Symbol("keys")
+const map = Symbol("keys")
+
+const JsObj = {
+    name: "Ankit",
+    age: 30,
+    'full name': "Ankit Saklani",
+    [maps]: "Ankit Saklani's Key of the products",
+    map: "Ankit Saklani's Key",
+};
+
+console.log(JsObj.age);
+
+console.log(JsObj['full name']);
+
+console.log(JsObj[maps]);
+console.log(typeof JsObj[maps]);
+console.log(JsObj.map);
+console.log(typeof JsObj.map);
+
+if(typeof maps == typeof map){
+    console.log("maps and map are same");
+}else{
+  console.log("maps and map are different");
+}
