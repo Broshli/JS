@@ -172,5 +172,25 @@ const Course = {
   price: "$300",
 };
 
-console.log(Course);
+// console.log(Course.name);
+
+const {name, teachers, students, price} = Course;
+
+// console.log(name);
+// console.log(teachers);
+// console.log(students);
+// console.log(price);
+
+const {teachers: teach} = Course;
+
+// console.log(teach);
+// console.log(teachers);
+
+console.log(typeof[
+  {
+    "name": "John Doe",
+    "age": 31,
+    "price": "$500"
+  }
+])
 
