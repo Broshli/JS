@@ -186,11 +186,12 @@ const {teachers: teach} = Course;
 // console.log(teach);
 // console.log(teachers);
 
-console.log(typeof[
-  {
-    "name": "John Doe",
-    "age": 31,
-    "price": "$500"
-  }
-])
+// console.log(typeof[
+//   {
+//     "name": "John Doe",
+//     "age": 31,
+//     "price": "$500"
+//   }
+// ])
 
+console.log(Course['price']);
