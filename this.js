@@ -194,4 +194,20 @@ const {teachers: teach} = Course;
 //   }
 // ])
 
-console.log(Course['price']);
+// console.log(Course['price']);
+
+function UserFullName(params) {
+  console.log("A");
+  console.log("N");
+  console.log("K");
+  console.log("I");
+  console.log("T");
+}
+
+// UserFullName()
+
+function add(num1, num2){
+  console.log(num1+num2);
+}
+
+add(20,10)
