@@ -218,4 +218,60 @@ function array(thparams) {
   return(thparams[1])
 }
 
-console.log(array(arrs));
+// console.log(array(arrs));
+
+let Na= 10
+const Nb= 20
+var Nc=30
+
+if(true){
+  let Na=15
+  const Nb= 25
+  var Nc= 35
+}
+
+
+// console.log(Na);
+// console.log(Nb);
+// console.log(Nc);
+
+const user = {
+  u: 'ankit',
+  pr: 999,
+
+  wel:function(){
+    console.log(this.u);
+    console.log(this);
+  },
+
+  // function wel(){
+  //   console.log(this.u);
+  //   console.log(this);
+  // }
+
+  wel2:function(){
+    console.log(this);
+  }
+
+}
+
+// user.wel()
+// user.u="sonu"
+// user.wel()
+
+// console.log(this);
+
+function chai(){
+console.log(this);
+}
+
+// chai()
+
+
+// const atwo = (n, b) =>{
+//   return n+b;
+// }
+const atwo = (n, b) => n+b;
+
+console.log(atwo(10,20));
+
