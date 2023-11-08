@@ -207,7 +207,15 @@ function UserFullName(params) {
 // UserFullName()
 
 function add(num1, num2){
-  console.log(num1+num2);
+  // console.log(num1+num2);
 }
 
-add(20,)
+add(20,30);
+
+const arrs = [11, 2, 3, 4, 55, 6, 7, 8, 9, 10]
+
+function array(thparams) {
+  return(thparams[1])
+}
+
+console.log(array(arrs));
