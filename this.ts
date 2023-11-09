@@ -17,5 +17,3 @@ function addNumber(...num1) {
   }
 
   console.log(calthesum(20,30,220,102,302,300,4))
-
-  

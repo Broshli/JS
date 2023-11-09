@@ -273,5 +273,32 @@ console.log(this);
 // }
 const atwo = (n, b) => n+b;
 
-console.log(atwo(10,20));
+// console.log(atwo(10,20));
 
+
+const twoAdd = (num1, num2) => (username = "ankit");
+
+// console.log(twoAdd(10, 20));
+
+
+( function code() {
+  console.log("DB Connector one");
+})();
+
+( () => {
+  console.log("DB Connected! two");
+})();
+
+( (name) => {
+  console.log(`DB Connected! three ${name}`);
+})("Ankit");
+
+( function code(name) {
+  console.log(`DB Connector four ${name}`);
+})("Sonu");
+
+function code(name) {
+   console.log(`DB Connector five ${name}`);
+}
+
+code("ankit")
