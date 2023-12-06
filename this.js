@@ -281,24 +281,60 @@ const twoAdd = (num1, num2) => (username = "ankit");
 // console.log(twoAdd(10, 20));
 
 
-( function code() {
-  console.log("DB Connector one");
-})();
+// ( function code() {
+//   console.log("DB Connector one");
+// })();
 
-( () => {
-  console.log("DB Connected! two");
-})();
+// ( () => {
+//   console.log("DB Connected! two");
+// })();
 
-( (name) => {
-  console.log(`DB Connected! three ${name}`);
-})("Ankit");
+// ( (name) => {
+//   console.log(`DB Connected! three ${name}`);
+// })("Ankit");
 
-( function code(name) {
-  console.log(`DB Connector four ${name}`);
-})("Sonu");
+// ( function code(name) {
+//   console.log(`DB Connector four ${name}`);
+// })("Sonu");
 
-function code(name) {
-   console.log(`DB Connector five ${name}`);
-}
+// function code(name) {
+//    console.log(`DB Connector five ${name}`);
+// }
 
-code("ankit")
+// code("ankit")
+
+
+// const month = 3
+// switch (month) {
+//   case 1:
+//     console.log("Jan");
+//     break;
+//   case 2:
+//     console.log("Feb");
+//     break;
+//   case 3:
+//     console.log("Mar");
+//     // break;
+//   case 4:
+//     console.log("Apr");
+//     // break;
+
+//   default:
+//     break;
+// }
+
+
+console.log(typeof(42.1));
+
+// console.log(first);
+
+var a = ['dog', 'cat', 'bird'];
+a[100] = 'rabbit';
+console.log(a.length);
+
+let rain = ['rain','sun', 'cloud', 'rain','sun', 'cloud'];
+rain.splice(0,2);
+console.log(rain);
+
+
+let cat = { type: "cat", size: "large" };
