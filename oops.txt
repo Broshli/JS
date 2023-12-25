@@ -1,0 +1,22 @@
+OOPs
+
+oops is basically a technique through which we can represent real world object into programing word with help of class and object
+inheritance is a way of extending the properties of one class to another class and polymorphism is a way of handling the same function with different implementation in different classes
+smalltalk programing language is an purely OOPs
+
+Abstraction is the process of hiding the details of implementation and showing only essential features of a class to the user
+
+Encapsulation is the process of wrapping the data and functions into a single unit and hiding the implementation details from the user
+
+Polymorphism is the process of using the same function with different implementation in different classes
+
+There are 2 types of polymorphism 1. Compile time polymorphism 2. Runtime polymorphism
+In compile time polymorphism, the compiler is responsible for selecting the correct method at compile time. It is obtained through method overloading. Overloading is a process of having multiple methods with the same name but different parameters.
+Runtime polymorphism is a type of polymorphism where the method is called during run time. It's also known as dynamic polymorphism, late binding, or overriding.
+In run time Polymorphism, the compiler is not responsible for selecting the correct method at compile time. It is obtained through method overriding. Overriding is a process of having a method with the same name but different implementation in different classes.
+
+
+flutter 
+
+WidgetsApp: ability to set the root widget, manage the navigation stack, and define the locale. it is solely focus on managing the app's layout and navigation.
+MaterialApp: specific functionalities to the material design language. this include built-in themes, like buttons and text styles, & navigation patterns.
